@@ -1,51 +1,56 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-#include "file_processor.h"
+#include "file_handler.h"
 #include "logger.h"
 #include "loggerconf.h"
 #include "plugin_api.h"
 
-struct option *longopts = NULL;
-struct plugin_list plug_list = {NULL};
+struct option *long_options = NULL;
+struct plugin_list plugins = {NULL};
 
-int main(int argc, char *argv[]) {
-    /* init logger */
+void initialize_logger() {
     char *debug_env = getenv("LAB1DEBUG");
-    int debug_level = debug_env ? atoi(debug_env) : 0; 
+    int debug_level = debug_env ? atoi(debug_env) : 0;
 
-    if (debug_level >= 1) { 
+    if (debug_level >= 1) {
         logger_initConsoleLogger(stderr);
         logger_setLevel(LogLevel_DEBUG);
         logger_initFileLogger("logs/log.txt", 1024 * 1024, 5);
         logger_autoFlush(0);
         LOG_INFO("Debug mode is on");
-    } else { 
+    } else {
         logger_initConsoleLogger(stdout);
         logger_setLevel(LogLevel_INFO);
         logger_autoFlush(0);
         LOG_INFO("Debug mode is off");
     }
+}
 
-    /* get plugin path */
-    char *path = get_plugin_path(argc, argv);
-    LOG_DEBUG("Plugin path: %s", path);
+void execute_pipeline(int argc, char *argv[]) {
+    char *plugin_path = get_plugin_directory_path(argc, argv);
+    LOG_DEBUG("Plugin path: %s", plugin_path);
 
-    /* load plugins */
-    load_plugins(path, &plug_list, &longopts);
-    path = parse_options(argc, argv, longopts, &plug_list);
-    LOG_DEBUG("Search path: %s", path);
-    free(longopts);
+    load_plugins_from_directory(plugin_path, &plugins, &long_options);
+    free(plugin_path);
+
+    char *search_path = parse_command_line_arguments(argc, argv, long_options, &plugins);
+    LOG_DEBUG("Search path: %s", search_path);
     
-    /* filter plugins */
-    filter_plugins(&plug_list);
+    filter_active_plugins(&plugins);
 
-    /* run plugins */
-    process_directory_files(path, &plug_list);
+    handle_directory_files(search_path, &plugins);
 
-    /* free plugins */
-    clear_plugins(&plug_list);
-    free(path);
+    free(search_path);
+}
 
+void clean_up() {
+    free(long_options);
+    clear_plugin_list(&plugins);
+}
+
+int main(int argc, char *argv[]) {
+    initialize_logger();
+    execute_pipeline(argc, argv);
+    clean_up();
     return 0;
-} 
+}

@@ -1,4 +1,4 @@
-#include "file_processor.h"
+#include "file_handler.h"
 #include "logger.h"
 #include <dirent.h>
 #include <stdio.h>
@@ -7,16 +7,16 @@
 #include <sys/stat.h>
 #include <unistd.h>
 
-// Function to compare flags based on the 'option_O' flag
-int compare_flags(int a, int b) {
-    return option_O ? (a && b) : (a || b);
+// Function to evaluate flags based on the 'option_O' flag
+int evaluate_flags(int flag1, int flag2) {
+    return option_O ? (flag1 && flag2) : (flag1 || flag2);
 }
 
 // Function to check a file against the plugins in the list
-int process_file_with_plugins(char *filename, struct plugin_list *list) {
+int process_file_with_plugins(char *filename, struct plugin_list *plugins) {
     LOG_DEBUG("process_file_with_plugins: Processing file: %s", filename);
 
-    struct plugin_list_node *current_plugin = list->head;
+    struct plugin_list_node *current_plugin = plugins->head;
     int combined_flag = option_O;
     int plugin_result;
 
@@ -31,7 +31,7 @@ int process_file_with_plugins(char *filename, struct plugin_list *list) {
             return -1;
         }
 
-        combined_flag = compare_flags(combined_flag, plugin_result);
+        combined_flag = evaluate_flags(combined_flag, plugin_result);
         
         if (combined_flag && option_A) {
             break;
@@ -44,8 +44,8 @@ int process_file_with_plugins(char *filename, struct plugin_list *list) {
 }
 
 // Function to recursively process files in a directory
-void process_directory_files(char *directory_path, struct plugin_list *list) {
-    LOG_DEBUG("process_directory_files: Processing directory: %s", directory_path);
+void handle_directory_files(char *directory_path, struct plugin_list *plugins) {
+    LOG_DEBUG("handle_directory_files: Processing directory: %s", directory_path);
 
     struct dirent *file_entry;
     struct stat file_stat;
@@ -53,7 +53,7 @@ void process_directory_files(char *directory_path, struct plugin_list *list) {
     int plugin_result = 0;
 
     if (!directory) {
-        LOG_ERROR("process_directory_files: Error opening directory: %s", directory_path);
+        LOG_ERROR("handle_directory_files: Error opening directory: %s", directory_path);
         return;
     }
 
@@ -76,9 +76,9 @@ void process_directory_files(char *directory_path, struct plugin_list *list) {
         }
 
         if ((file_stat.st_mode & S_IFMT) == S_IFDIR) {
-            process_directory_files(file_path, list);
+            handle_directory_files(file_path, plugins);
         } else {
-            plugin_result = process_file_with_plugins(file_path, list);
+            plugin_result = process_file_with_plugins(file_path, plugins);
             if (plugin_result == -1) {
                 free(file_path);
                 closedir(directory);

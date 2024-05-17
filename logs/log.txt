@@ -1,0 +1,309 @@
+I 24-05-17 13:56:27.905496 259 main.c:20: Debug mode is on
+D 24-05-17 13:56:27.906967 259 src/plugin_api.c:162: get_plugin_directory_path: Getting plugin path
+D 24-05-17 13:56:27.907022 259 src/main.c:31: Plugin path: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin
+D 24-05-17 13:56:27.907029 259 src/plugin_api.c:115: load_plugins_from_directory: Loading plugins from /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin
+D 24-05-17 13:56:27.907104 259 src/plugin_api.c:127: load_plugins_from_directory: Found plugin /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin/libavg.so
+D 24-05-17 13:56:27.907715 259 src/plugin_api.c:143: load_plugins_from_directory: Option entropy added for plugin /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin/libavg.so
+D 24-05-17 13:56:27.907724 259 src/plugin_api.c:143: load_plugins_from_directory: Option offset-from added for plugin /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin/libavg.so
+D 24-05-17 13:56:27.907729 259 src/plugin_api.c:143: load_plugins_from_directory: Option offset-to added for plugin /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin/libavg.so
+D 24-05-17 13:56:27.907735 259 src/plugin_api.c:127: load_plugins_from_directory: Found plugin /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin/libagkN3246.so
+D 24-05-17 13:56:27.908236 259 src/plugin_api.c:143: load_plugins_from_directory: Option seq-num added for plugin /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin/libagkN3246.so
+D 24-05-17 13:56:27.908243 259 src/plugin_api.c:143: load_plugins_from_directory: Option seq-num-comp added for plugin /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin/libagkN3246.so
+I 24-05-17 13:56:27.908250 259 plugin_api.c:157: load_plugins_from_directory: All plugins loaded
+D 24-05-17 13:56:27.908257 259 src/plugin_api.c:184: parse_command_line_arguments: Parsing command line options
+D 24-05-17 13:56:27.908281 259 src/main.c:37: Search path: /Users/nikitabelekov/Workspace/c_projects/Lab2OS
+D 24-05-17 13:56:27.908332 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS
+D 24-05-17 13:56:27.908394 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.DS_Store
+D 24-05-17 13:56:27.908469 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/Makefile
+D 24-05-17 13:56:27.908848 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/include
+D 24-05-17 13:56:27.908889 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/include/file_handler.h
+D 24-05-17 13:56:27.909189 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/include/loggerconf.h
+D 24-05-17 13:56:27.909629 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/include/plugin_api.h
+D 24-05-17 13:56:27.909901 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/include/logger.h
+D 24-05-17 13:56:27.909955 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin
+D 24-05-17 13:56:27.909987 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin/libavg.so
+D 24-05-17 13:56:27.910156 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin/libagkN3246.c
+D 24-05-17 13:56:27.910397 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin/libagkN3246.so
+D 24-05-17 13:56:27.910565 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin/libavg.o
+D 24-05-17 13:56:27.910840 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin/libagkN3246.o
+D 24-05-17 13:56:27.911056 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin/libavg.c
+D 24-05-17 13:56:27.911123 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/lab1psiN3245
+D 24-05-17 13:56:27.911369 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/ReadMe.md
+D 24-05-17 13:56:27.911725 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/logs
+D 24-05-17 13:56:27.911818 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/logs/log.txt
+D 24-05-17 13:56:27.911886 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.gitignore
+D 24-05-17 13:56:27.912065 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git
+D 24-05-17 13:56:27.912128 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/config
+D 24-05-17 13:56:27.912173 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects
+D 24-05-17 13:56:27.912221 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/61
+D 24-05-17 13:56:27.912271 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/61/7609f195c2a7bed26afa746efda785145e9368
+D 24-05-17 13:56:27.912595 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/6f
+D 24-05-17 13:56:27.912707 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/6f/f64095f20c674ea4c57bf14ce3a5ccacc1270f
+D 24-05-17 13:56:27.912996 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/58
+D 24-05-17 13:56:27.913268 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/58/ce21b050ecc144ed8c440346e27b7f9fc8ef9a
+D 24-05-17 13:56:27.913494 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/93
+D 24-05-17 13:56:27.913555 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/93/e9875d65515f1c7f343ad1903feef091cb0aa5
+D 24-05-17 13:56:27.913796 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/34
+D 24-05-17 13:56:27.913843 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/34/e15da6b9c6dfac88df7e3bf926510a1ce70cf4
+D 24-05-17 13:56:27.914155 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/9d
+D 24-05-17 13:56:27.914202 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/9d/3bdec10f98023e5d9af264630008207a5a4cf2
+D 24-05-17 13:56:27.914317 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/ad
+D 24-05-17 13:56:27.914366 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/ad/84e6a7879e29305904609504ecd94e6b3364db
+D 24-05-17 13:56:27.914517 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/b3
+D 24-05-17 13:56:27.914558 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/b3/b9cde3f41ce80d5312c205944058308110b26d
+D 24-05-17 13:56:27.914595 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/e4
+D 24-05-17 13:56:27.914631 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/e4/3b0f988953ae3a84b00331d0ccf5f7d51cb3cf
+D 24-05-17 13:56:27.914746 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/pack
+D 24-05-17 13:56:27.914793 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/4d
+D 24-05-17 13:56:27.914838 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/4d/ec09804709dee4ea9a394431199a20b0c3517b
+D 24-05-17 13:56:27.914892 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/info
+D 24-05-17 13:56:27.914933 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/62
+D 24-05-17 13:56:27.914981 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/62/b2d53220010cf8c899373fd1843ed7c08d0a1e
+D 24-05-17 13:56:27.915120 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/55
+D 24-05-17 13:56:27.915176 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/55/55091c0b306c11f66d2a26608eadc7e962f25d
+D 24-05-17 13:56:27.915328 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/b6
+D 24-05-17 13:56:27.915395 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/b6/244ca113bc9664ceba23bbaf3bd52b0e01ee86
+D 24-05-17 13:56:27.915527 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/a9
+D 24-05-17 13:56:27.915568 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/a9/d3b5d5a6efeb2326dc6d04445af2dda087833e
+D 24-05-17 13:56:27.915706 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/b7
+D 24-05-17 13:56:27.915788 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/b7/1436f3cee0830becabfeaca6cf566701cfaf77
+I 24-05-17 13:56:27.915901 259 file_handler.c:88: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/b7/1436f3cee0830becabfeaca6cf566701cfaf77
+
+D 24-05-17 13:56:27.915914 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/b7/b1a3f321b53b0429020b3109eab989d04b5949
+D 24-05-17 13:56:27.916113 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/a8
+D 24-05-17 13:56:27.916162 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/a8/52c5e600391df8704885f7f7dea397f80d7acc
+D 24-05-17 13:56:27.916205 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/e6
+D 24-05-17 13:56:27.916276 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/e6/d27ec00682775b49e4c4b9618466d231168295
+D 24-05-17 13:56:27.916351 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+I 24-05-17 13:56:27.916434 259 file_handler.c:88: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+
+D 24-05-17 13:56:27.916444 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/f9
+D 24-05-17 13:56:27.916479 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/f9/b2f12e6e7ee8c148273da035029866fe6fa9f3
+D 24-05-17 13:56:27.916530 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/fa
+D 24-05-17 13:56:27.916565 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/fa/12c6aea3654570455b01d31987e6f09ce99f3e
+D 24-05-17 13:56:27.916667 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/c5
+D 24-05-17 13:56:27.916712 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/c5/caf6a2ad554bd285c3677067fbfb1812b04ede
+I 24-05-17 13:56:27.916747 259 file_handler.c:88: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/c5/caf6a2ad554bd285c3677067fbfb1812b04ede
+
+D 24-05-17 13:56:27.916756 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/ce
+D 24-05-17 13:56:27.916793 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/ce/5efc537633d59a5837b2d56455e012c62ee203
+D 24-05-17 13:56:27.917314 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/2d
+D 24-05-17 13:56:27.917362 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/2d/48cfbcee5cc1ffc8076e40e7c67f2749a5b898
+I 24-05-17 13:56:27.917515 259 file_handler.c:88: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/2d/48cfbcee5cc1ffc8076e40e7c67f2749a5b898
+
+D 24-05-17 13:56:27.917687 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/HEAD
+D 24-05-17 13:56:27.917730 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/info
+D 24-05-17 13:56:27.917773 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/info/exclude
+D 24-05-17 13:56:27.918775 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/logs
+D 24-05-17 13:56:27.918831 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/logs/HEAD
+D 24-05-17 13:56:27.918990 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/logs/refs
+D 24-05-17 13:56:27.919035 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/logs/refs/heads
+D 24-05-17 13:56:27.919073 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/logs/refs/heads/master
+D 24-05-17 13:56:27.919211 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/logs/refs/remotes
+D 24-05-17 13:56:27.919263 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/logs/refs/remotes/origin
+D 24-05-17 13:56:27.919298 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/logs/refs/remotes/origin/master
+D 24-05-17 13:56:27.919485 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/description
+I 24-05-17 13:56:27.919574 259 file_handler.c:88: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/description
+
+D 24-05-17 13:56:27.919583 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/hooks
+D 24-05-17 13:56:27.919630 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/hooks/commit-msg.sample
+D 24-05-17 13:56:27.919718 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/hooks/pre-rebase.sample
+D 24-05-17 13:56:27.919897 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/hooks/sendemail-validate.sample
+D 24-05-17 13:56:27.919976 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/hooks/pre-commit.sample
+D 24-05-17 13:56:27.920112 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/hooks/applypatch-msg.sample
+D 24-05-17 13:56:27.920193 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/hooks/fsmonitor-watchman.sample
+D 24-05-17 13:56:27.920380 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/hooks/pre-receive.sample
+D 24-05-17 13:56:27.920461 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/hooks/prepare-commit-msg.sample
+D 24-05-17 13:56:27.920539 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/hooks/post-update.sample
+D 24-05-17 13:56:27.920611 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/hooks/pre-merge-commit.sample
+D 24-05-17 13:56:27.920684 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/hooks/pre-applypatch.sample
+D 24-05-17 13:56:27.920755 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/hooks/pre-push.sample
+D 24-05-17 13:56:27.920822 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/hooks/update.sample
+D 24-05-17 13:56:27.920903 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/hooks/push-to-checkout.sample
+D 24-05-17 13:56:27.920980 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/refs
+D 24-05-17 13:56:27.921010 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/refs/heads
+D 24-05-17 13:56:27.921037 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/refs/heads/master
+D 24-05-17 13:56:27.921064 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/refs/tags
+D 24-05-17 13:56:27.921110 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/refs/remotes
+D 24-05-17 13:56:27.921132 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/refs/remotes/origin
+D 24-05-17 13:56:27.921152 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/refs/remotes/origin/master
+D 24-05-17 13:56:27.921180 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/index
+D 24-05-17 13:56:27.921210 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/COMMIT_EDITMSG
+I 24-05-17 13:56:27.921277 259 file_handler.c:88: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/COMMIT_EDITMSG
+
+D 24-05-17 13:56:27.921286 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/FETCH_HEAD
+D 24-05-17 13:56:27.921317 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.vscode
+D 24-05-17 13:56:27.921344 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.vscode/settings.json
+D 24-05-17 13:56:27.921489 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/src
+D 24-05-17 13:56:27.921517 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/src/main.o
+D 24-05-17 13:56:27.921670 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/src/file_handler.o
+D 24-05-17 13:56:27.921816 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/src/logger.c
+D 24-05-17 13:56:27.922124 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/src/loggerconf.o
+D 24-05-17 13:56:27.922227 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/src/plugin_api.o
+D 24-05-17 13:56:27.922418 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/src/main.c
+D 24-05-17 13:56:27.922639 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/src/file_handler.c
+D 24-05-17 13:56:27.922779 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/src/logger.o
+D 24-05-17 13:56:27.922948 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/src/plugin_api.c
+D 24-05-17 13:56:27.923206 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/src/loggerconf.c
+I 24-05-17 14:01:38.713934 259 main.c:20: Debug mode is on
+D 24-05-17 14:01:38.715422 259 src/plugin_api.c:162: get_plugin_directory_path: Getting plugin path
+D 24-05-17 14:01:38.715596 259 src/main.c:31: Plugin path: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin
+D 24-05-17 14:01:38.715608 259 src/plugin_api.c:115: load_plugins_from_directory: Loading plugins from /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin
+D 24-05-17 14:01:38.715770 259 src/plugin_api.c:127: load_plugins_from_directory: Found plugin /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin/libavg.so
+D 24-05-17 14:01:38.892634 259 src/plugin_api.c:143: load_plugins_from_directory: Option entropy added for plugin /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin/libavg.so
+D 24-05-17 14:01:38.892666 259 src/plugin_api.c:143: load_plugins_from_directory: Option offset-from added for plugin /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin/libavg.so
+D 24-05-17 14:01:38.892675 259 src/plugin_api.c:143: load_plugins_from_directory: Option offset-to added for plugin /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin/libavg.so
+D 24-05-17 14:01:38.892686 259 src/plugin_api.c:127: load_plugins_from_directory: Found plugin /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin/libagkN3246.so
+D 24-05-17 14:01:39.081553 259 src/plugin_api.c:143: load_plugins_from_directory: Option seq-num added for plugin /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin/libagkN3246.so
+D 24-05-17 14:01:39.081631 259 src/plugin_api.c:143: load_plugins_from_directory: Option seq-num-comp added for plugin /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin/libagkN3246.so
+D 24-05-17 14:01:39.081655 259 src/plugin_api.c:127: load_plugins_from_directory: Found plugin /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin/libagkN3245.so
+D 24-05-17 14:01:39.280432 259 src/plugin_api.c:143: load_plugins_from_directory: Option ipv4-addr-bin added for plugin /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin/libagkN3245.so
+I 24-05-17 14:01:39.280476 259 plugin_api.c:157: load_plugins_from_directory: All plugins loaded
+D 24-05-17 14:01:39.280484 259 src/plugin_api.c:184: parse_command_line_arguments: Parsing command line options
+D 24-05-17 14:01:39.280490 259 src/plugin_api.c:25: print_help: Printing help
+I 24-05-17 14:04:40.960171 259 main.c:20: Debug mode is on
+D 24-05-17 14:04:40.960765 259 src/plugin_api.c:162: get_plugin_directory_path: Getting plugin path
+D 24-05-17 14:04:40.960816 259 src/main.c:31: Plugin path: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin
+D 24-05-17 14:04:40.960823 259 src/plugin_api.c:115: load_plugins_from_directory: Loading plugins from /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin
+D 24-05-17 14:04:40.960886 259 src/plugin_api.c:127: load_plugins_from_directory: Found plugin /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin/libavg.so
+D 24-05-17 14:04:40.961837 259 src/plugin_api.c:143: load_plugins_from_directory: Option entropy added for plugin /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin/libavg.so
+D 24-05-17 14:04:40.961849 259 src/plugin_api.c:143: load_plugins_from_directory: Option offset-from added for plugin /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin/libavg.so
+D 24-05-17 14:04:40.961854 259 src/plugin_api.c:143: load_plugins_from_directory: Option offset-to added for plugin /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin/libavg.so
+D 24-05-17 14:04:40.961860 259 src/plugin_api.c:127: load_plugins_from_directory: Found plugin /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin/libagkN3246.so
+D 24-05-17 14:04:40.962510 259 src/plugin_api.c:143: load_plugins_from_directory: Option seq-num added for plugin /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin/libagkN3246.so
+D 24-05-17 14:04:40.962517 259 src/plugin_api.c:143: load_plugins_from_directory: Option seq-num-comp added for plugin /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin/libagkN3246.so
+D 24-05-17 14:04:40.962523 259 src/plugin_api.c:127: load_plugins_from_directory: Found plugin /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin/libagkN3245.so
+D 24-05-17 14:04:40.963000 259 src/plugin_api.c:143: load_plugins_from_directory: Option ipv4-addr-bin added for plugin /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin/libagkN3245.so
+I 24-05-17 14:04:40.963010 259 plugin_api.c:157: load_plugins_from_directory: All plugins loaded
+D 24-05-17 14:04:40.963015 259 src/plugin_api.c:184: parse_command_line_arguments: Parsing command line options
+D 24-05-17 14:04:40.963041 259 src/main.c:37: Search path: /Users/nikitabelekov/Workspace/c_projects/Lab2OS
+D 24-05-17 14:04:40.963134 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS
+D 24-05-17 14:04:40.963181 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.DS_Store
+D 24-05-17 14:04:40.963468 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/test
+D 24-05-17 14:04:40.963543 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/test/file2.bin
+I 24-05-17 14:04:40.963793 259 file_handler.c:88: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/test/file2.bin
+
+D 24-05-17 14:04:40.963808 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/test/file3.txt
+D 24-05-17 14:04:40.963853 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/test/file1.bin
+D 24-05-17 14:04:40.964024 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/Makefile
+D 24-05-17 14:04:40.964065 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/include
+D 24-05-17 14:04:40.964101 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/include/file_handler.h
+D 24-05-17 14:04:40.964316 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/include/loggerconf.h
+D 24-05-17 14:04:40.964527 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/include/plugin_api.h
+D 24-05-17 14:04:40.964997 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/include/logger.h
+D 24-05-17 14:04:40.965043 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin
+D 24-05-17 14:04:40.965070 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin/libavg.so
+D 24-05-17 14:04:40.965234 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin/libagkN3246.c
+D 24-05-17 14:04:40.965292 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin/libagkN3246.so
+D 24-05-17 14:04:40.965453 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin/libagkN3245.c
+D 24-05-17 14:04:40.965717 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin/libavg.o
+D 24-05-17 14:04:40.965918 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin/libagkN3246.o
+D 24-05-17 14:04:40.966119 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin/libagkN3245.o
+D 24-05-17 14:04:40.966476 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin/libavg.c
+D 24-05-17 14:04:40.966541 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/plugin/libagkN3245.so
+D 24-05-17 14:04:40.966708 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/lab1psiN3245
+D 24-05-17 14:04:40.966953 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/ReadMe.md
+D 24-05-17 14:04:40.967172 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/logs
+D 24-05-17 14:04:40.967212 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/logs/log.txt
+D 24-05-17 14:04:40.967324 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.gitignore
+D 24-05-17 14:04:40.967358 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git
+D 24-05-17 14:04:40.967412 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/config
+D 24-05-17 14:04:40.967447 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects
+D 24-05-17 14:04:40.967501 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/61
+D 24-05-17 14:04:40.967549 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/61/7609f195c2a7bed26afa746efda785145e9368
+D 24-05-17 14:04:40.967780 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/6f
+D 24-05-17 14:04:40.967834 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/6f/f64095f20c674ea4c57bf14ce3a5ccacc1270f
+D 24-05-17 14:04:40.967998 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/58
+D 24-05-17 14:04:40.968092 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/58/ce21b050ecc144ed8c440346e27b7f9fc8ef9a
+D 24-05-17 14:04:40.968255 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/93
+D 24-05-17 14:04:40.968302 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/93/e9875d65515f1c7f343ad1903feef091cb0aa5
+D 24-05-17 14:04:40.968596 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/34
+D 24-05-17 14:04:40.968741 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/34/e15da6b9c6dfac88df7e3bf926510a1ce70cf4
+D 24-05-17 14:04:40.968926 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/9d
+D 24-05-17 14:04:40.969004 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/9d/3bdec10f98023e5d9af264630008207a5a4cf2
+D 24-05-17 14:04:40.969112 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/ad
+D 24-05-17 14:04:40.969177 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/ad/84e6a7879e29305904609504ecd94e6b3364db
+D 24-05-17 14:04:40.969282 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/b3
+D 24-05-17 14:04:40.969361 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/b3/b9cde3f41ce80d5312c205944058308110b26d
+D 24-05-17 14:04:40.969405 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/e4
+D 24-05-17 14:04:40.969454 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/e4/3b0f988953ae3a84b00331d0ccf5f7d51cb3cf
+D 24-05-17 14:04:40.969539 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/pack
+D 24-05-17 14:04:40.969573 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/4d
+D 24-05-17 14:04:40.969609 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/4d/ec09804709dee4ea9a394431199a20b0c3517b
+D 24-05-17 14:04:40.969690 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/info
+D 24-05-17 14:04:40.969726 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/62
+D 24-05-17 14:04:40.969766 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/62/b2d53220010cf8c899373fd1843ed7c08d0a1e
+D 24-05-17 14:04:40.969797 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/55
+D 24-05-17 14:04:40.969834 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/55/55091c0b306c11f66d2a26608eadc7e962f25d
+D 24-05-17 14:04:40.969920 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/b6
+D 24-05-17 14:04:40.969958 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/b6/244ca113bc9664ceba23bbaf3bd52b0e01ee86
+D 24-05-17 14:04:40.970036 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/a9
+D 24-05-17 14:04:40.970074 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/a9/d3b5d5a6efeb2326dc6d04445af2dda087833e
+D 24-05-17 14:04:40.970144 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/b7
+D 24-05-17 14:04:40.970188 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/b7/1436f3cee0830becabfeaca6cf566701cfaf77
+D 24-05-17 14:04:40.970262 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/b7/b1a3f321b53b0429020b3109eab989d04b5949
+D 24-05-17 14:04:40.970419 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/a8
+D 24-05-17 14:04:40.970464 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/a8/52c5e600391df8704885f7f7dea397f80d7acc
+D 24-05-17 14:04:40.970498 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/e6
+D 24-05-17 14:04:40.970535 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/e6/d27ec00682775b49e4c4b9618466d231168295
+D 24-05-17 14:04:40.970604 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+D 24-05-17 14:04:40.970630 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/f9
+D 24-05-17 14:04:40.971027 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/f9/b2f12e6e7ee8c148273da035029866fe6fa9f3
+D 24-05-17 14:04:40.971070 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/fa
+D 24-05-17 14:04:40.971106 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/fa/12c6aea3654570455b01d31987e6f09ce99f3e
+D 24-05-17 14:04:40.971177 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/c5
+D 24-05-17 14:04:40.971215 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/c5/caf6a2ad554bd285c3677067fbfb1812b04ede
+D 24-05-17 14:04:40.971244 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/ce
+D 24-05-17 14:04:40.971277 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/ce/5efc537633d59a5837b2d56455e012c62ee203
+D 24-05-17 14:04:40.971306 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/2d
+D 24-05-17 14:04:40.971341 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/objects/2d/48cfbcee5cc1ffc8076e40e7c67f2749a5b898
+D 24-05-17 14:04:40.971406 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/HEAD
+D 24-05-17 14:04:40.971435 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/info
+D 24-05-17 14:04:40.971486 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/info/exclude
+D 24-05-17 14:04:40.971516 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/logs
+D 24-05-17 14:04:40.971548 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/logs/HEAD
+D 24-05-17 14:04:40.971608 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/logs/refs
+D 24-05-17 14:04:40.971644 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/logs/refs/heads
+D 24-05-17 14:04:40.971675 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/logs/refs/heads/master
+D 24-05-17 14:04:40.972125 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/logs/refs/remotes
+D 24-05-17 14:04:40.972163 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/logs/refs/remotes/origin
+D 24-05-17 14:04:40.972200 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/logs/refs/remotes/origin/master
+D 24-05-17 14:04:40.972363 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/description
+D 24-05-17 14:04:40.972483 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/hooks
+D 24-05-17 14:04:40.972532 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/hooks/commit-msg.sample
+D 24-05-17 14:04:40.972615 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/hooks/pre-rebase.sample
+D 24-05-17 14:04:40.972786 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/hooks/sendemail-validate.sample
+D 24-05-17 14:04:40.972855 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/hooks/pre-commit.sample
+D 24-05-17 14:04:40.972996 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/hooks/applypatch-msg.sample
+D 24-05-17 14:04:40.973163 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/hooks/fsmonitor-watchman.sample
+D 24-05-17 14:04:40.973331 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/hooks/pre-receive.sample
+D 24-05-17 14:04:40.973434 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/hooks/prepare-commit-msg.sample
+D 24-05-17 14:04:40.973559 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/hooks/post-update.sample
+D 24-05-17 14:04:40.973648 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/hooks/pre-merge-commit.sample
+D 24-05-17 14:04:40.973739 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/hooks/pre-applypatch.sample
+D 24-05-17 14:04:40.973816 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/hooks/pre-push.sample
+D 24-05-17 14:04:40.973887 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/hooks/update.sample
+D 24-05-17 14:04:40.973991 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/hooks/push-to-checkout.sample
+D 24-05-17 14:04:40.974062 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/refs
+D 24-05-17 14:04:40.974090 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/refs/heads
+D 24-05-17 14:04:40.974111 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/refs/heads/master
+D 24-05-17 14:04:40.974137 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/refs/tags
+D 24-05-17 14:04:40.974157 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/refs/remotes
+D 24-05-17 14:04:40.974181 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/refs/remotes/origin
+D 24-05-17 14:04:40.974200 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/refs/remotes/origin/master
+D 24-05-17 14:04:40.974229 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/index
+D 24-05-17 14:04:40.974255 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/COMMIT_EDITMSG
+D 24-05-17 14:04:40.974312 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.git/FETCH_HEAD
+D 24-05-17 14:04:40.974463 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.vscode
+D 24-05-17 14:04:40.974493 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/.vscode/settings.json
+D 24-05-17 14:04:40.974621 259 src/file_handler.c:48: handle_directory_files: Processing directory: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/src
+D 24-05-17 14:04:40.974651 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/src/main.o
+D 24-05-17 14:04:40.974779 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/src/file_handler.o
+D 24-05-17 14:04:40.974925 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/src/logger.c
+D 24-05-17 14:04:40.975106 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/src/loggerconf.o
+D 24-05-17 14:04:40.975188 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/src/plugin_api.o
+D 24-05-17 14:04:40.975349 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/src/main.c
+D 24-05-17 14:04:40.975463 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/src/file_handler.c
+D 24-05-17 14:04:40.975602 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/src/logger.o
+D 24-05-17 14:04:40.975760 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/src/plugin_api.c
+D 24-05-17 14:04:40.975919 259 src/file_handler.c:17: process_file_with_plugins: Processing file: /Users/nikitabelekov/Workspace/c_projects/Lab2OS/src/loggerconf.c

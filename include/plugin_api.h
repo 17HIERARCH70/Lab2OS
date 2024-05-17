@@ -11,20 +11,20 @@ extern int option_N;
 extern int option_O;
 
 struct plugin_option {
-  /* Опция в формате, поддерживаемом getopt_long (man 3 getopt_long). */
+  /* Option in the format supported by getopt_long (man 3 getopt_long). */
   struct option opt;
-  /* Описание опции, которое предоставляет плагин. */
+  /* Option description provided by the plugin. */
   const char *opt_descr;
 };
 
 struct plugin_info {
-  /* Назначение плагина */
+  /* Purpose of the plugin */
   const char *plugin_purpose;
-  /* Автор плагина, например "Иванов Иван Иванович, N32xx" */
+  /* Author of the plugin, e.g., "Ivan Ivanov, N32xx" */
   const char *plugin_author;
-  /* Длина списка опций */
+  /* Length of the option list */
   size_t sup_opts_len;
-  /* Список опций, поддерживаемых плагином */
+  /* List of options supported by the plugin */
   struct plugin_option *sup_opts;
 };
 
@@ -45,13 +45,12 @@ struct plugin_list_node {
   struct plugin_list_node *next;
 };
 
-void push_plugin(struct plugin_list *list, struct loaded_plugin plugin);
-void clear_plugins(struct plugin_list *list);
-void filter_plugins(struct plugin_list *list);
-void build_option_struct(size_t count, struct option **lops, struct plugin_list *list);
-void load_plugins(char *path, struct plugin_list *list, struct option **longopts);
-char *get_plugin_path(int argc, char *argv[]);
-char *parse_options(int argc, char *argv[], struct option *longopts, struct plugin_list *list);
-
+void add_plugin(struct plugin_list *list, struct loaded_plugin plugin);
+void clear_plugin_list(struct plugin_list *list);
+void filter_active_plugins(struct plugin_list *list);
+void create_option_array(size_t count, struct option **options, struct plugin_list *list);
+void load_plugins_from_directory(const char *path, struct plugin_list *list, struct option **options);
+char *get_plugin_directory_path(int argc, char *argv[]);
+char *parse_command_line_arguments(int argc, char *argv[], struct option *options, struct plugin_list *list);
 
 #endif // PLUGIN_API_H
